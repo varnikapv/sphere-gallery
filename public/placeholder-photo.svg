@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="620" viewBox="0 0 480 620">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#d8cef0"/>
+      <stop offset="100%" stop-color="#b8a8d8"/>
+    </radialGradient>
+    <clipPath id="silhouette">
+      <ellipse cx="240" cy="310" rx="200" ry="310"/>
+    </clipPath>
+  </defs>
+  <!-- background -->
+  <ellipse cx="240" cy="310" rx="200" ry="310" fill="url(#bg)" opacity="0.3"/>
+  <!-- head -->
+  <circle cx="240" cy="135" r="80" fill="#c4b4e0"/>
+  <!-- shoulders/body -->
+  <ellipse cx="240" cy="420" rx="180" ry="200" fill="#c4b4e0"/>
+  <!-- neck -->
+  <rect x="210" y="205" width="60" height="60" rx="10" fill="#c4b4e0"/>
+</svg>
